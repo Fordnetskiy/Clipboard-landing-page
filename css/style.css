@@ -195,12 +195,12 @@ a {
 .section-logos{
    max-width: 1110px;
    margin: 0 auto;
+   margin-bottom: 150px;
 }
-.company-logos img{
-   display: block;
-}
-.company-logos img:not(:last-child){
-   margin-bottom: 5px;
+.company-logos{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
 }
 
 /* MAIN SECTION 5 */
